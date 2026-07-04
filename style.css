@@ -1,0 +1,78 @@
+/* style.css for ANKITA SABJI BHANDAR website */
+
+/* Pistachio background */
+body {
+  background-color: #93C572; /* pistachio */
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1, h2 {
+  font-weight: 600;
+  color: #2b3e50;
+  margin: 0.5rem 0;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0;
+  background: linear-gradient(135deg, #a8d5a2, #6fae73);
+  color: white;
+}
+
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: rgba(255,255,255,0.9);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.agent-list {
+  list-style: none;
+  padding: 0;
+}
+
+.agent-list li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.contacts {
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+img.veggie-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 1rem auto;
+}
+
+/* Gallery layout */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.gallery img {
+  max-width: 250px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #555;
+}
